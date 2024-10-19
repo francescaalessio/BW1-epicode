@@ -11,6 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styleIndex.css">
+
+    <style>
+        input[type="checkbox"] {
+          transform: scale(1.2); 
+          margin-right: 10px; 
+        }
+    
+        label {
+          font-size: 18px; 
+        }
+      </style>
 </head>
 <body>
     <header><img src="assets/epicode_logo.png" alt="logo epicode"></header>
@@ -27,10 +38,11 @@
             <li>This exam will take approx. <b>0-5 minutes</b>.</li>
         </ul>
     </span>
-   <input type="checkbox" name="checkbox" id="checkbox">
-   <label for="checkbox">I promise to answer myself without help from anyone</label>
-   <button onclick="vaiAdUnAltraPagina()">PROCEED</button>
-</div>
+    <footer>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">I promise to answer myself without help from anyone</label>
+        <button onclick="vaiAquiz()">PROCEED</button>
+    </footer>
 
 </body>
 <script src="script.js"></script>
